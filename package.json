@@ -1,0 +1,44 @@
+{
+  "name": "deselect",
+  "version": "1.0.0",
+  "description": "Returns a selector that excludes all passed selectors",
+  "author": "Tyler Peterson <tylerjpeterson@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover _mocha -- test/spec/test.js && open coverage/lcov-report/*.html",
+    "docs": "jsdoc index.js -p -d docs/",
+    "test": "mocha test/spec/test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "chai": "^3.4.1",
+    "istanbul": "^0.4.5",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.3.4"
+  },
+  "bugs": {
+    "url": "https://github.com/tylerjpeterson/deselect/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tylerjpeterson/deselect"
+  },
+  "homepage": "https://github.com/tylerjpeterson/deselect",
+  "contributors": [
+    ""
+  ],
+  "xo": {
+    "globals": [
+      "document",
+      "window",
+      "require",
+      "module"
+    ]
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "license": "MIT"
+}
