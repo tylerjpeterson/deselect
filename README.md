@@ -3,6 +3,7 @@
 
 ![100% test coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
 
+
 ## Installation
 
 Install via npm:
@@ -28,5 +29,4 @@ deselect();
 
 deselect('p,a,h2');
 // returns *:not(p),*:not(a),*:not(h2)
-
 ```
