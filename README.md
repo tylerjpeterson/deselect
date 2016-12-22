@@ -8,7 +8,7 @@
 Install via npm:
 
 ```sh
-$ npm i no-select
+$ npm i deselect
 ```
 
 
