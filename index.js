@@ -20,7 +20,7 @@ var deselect = function (selectors) {
 
 	return selectors.map(function (selector) {
 		return ['*:not(', selector, ')'].join('');
-	}).join(',');
+	}).join(' ');
 };
 
 module.exports = deselect;

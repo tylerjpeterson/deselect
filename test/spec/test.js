@@ -14,7 +14,7 @@ describe('deselect', function () {
 	});
 
 	it('should return selector excluding all passed selectors', function () {
-		assert.equal(deselect(['p','a','h2']), '*:not(p),*:not(a),*:not(h2)');
+		assert.equal(deselect(['p','a','h2']), '*:not(p) *:not(a) *:not(h2)');
 	});
 
 	it('should handle strings gracefully', function () {
@@ -26,6 +26,6 @@ describe('deselect', function () {
 	});
 
 	it('should split a string on commas', function () {
-		assert.equal(deselect('p,a,h2'), '*:not(p),*:not(a),*:not(h2)');
+		assert.equal(deselect('p,a,h2'), '*:not(p) *:not(a) *:not(h2)');
 	});
 });
