@@ -1,6 +1,6 @@
 {
   "name": "deselect",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Returns a selector that excludes all passed selectors",
   "author": "Tyler Peterson <tylerjpeterson@gmail.com>",
   "main": "index.js",
